@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16.3)
+project(MyImageDisplayApp LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+find_package(OpenCV REQUIRED)
+set(SOURCE_FILES main.cpp)
+add_executable(MyImageDisplayApp ${SOURCE_FILES})
+target_link_libraries(MyImageDisplayApp ${OpenCV_LIBS})

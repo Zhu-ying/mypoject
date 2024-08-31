@@ -1,0 +1,3 @@
+/home/cxh/my-project/build/CMakeFiles/rebuild_cache.dir
+/home/cxh/my-project/build/CMakeFiles/edit_cache.dir
+/home/cxh/my-project/build/CMakeFiles/MyImageDisplayApp.dir
